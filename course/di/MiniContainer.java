@@ -6,7 +6,7 @@ import java.lang.reflect.Modifier;
 import java.lang.reflect.Parameter;
 import java.util.*;
 
-/** Working first step only. Extend a copy; do not compile it with the full container. */
+/** Small DI container: constructor injection, named beans, scopes, cycle detection. */
 public final class MiniContainer implements AutoCloseable {
     public enum Scope { SINGLETON, PROTOTYPE }
     @Retention(RetentionPolicy.RUNTIME)
