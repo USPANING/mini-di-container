@@ -8,7 +8,7 @@ public class Ex0322 {
         public Ticket getTicket() {return ticket;}
     }
 
-    static void main() {
+    public static void main(String[] args) {
         MiniContainer container = new MiniContainer();
         container.register("ticket", Ticket.class, MiniContainer.Scope.PROTOTYPE);
         container.register("holder", Holder.class, MiniContainer.Scope.SINGLETON);

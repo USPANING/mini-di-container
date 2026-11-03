@@ -6,7 +6,7 @@ public class Ex0122 {
         public Memory() {}
     }
 
-    static void main() {
+    public static void main(String[] args) {
         MiniContainer container = new MiniContainer();
         MiniContainer container2 = new MiniContainer();
         container2.register("memory", Memory.class, MiniContainer.Scope.SINGLETON);

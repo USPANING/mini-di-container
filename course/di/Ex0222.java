@@ -10,7 +10,7 @@ public class Ex0222 {
     public static class FileRepo implements Repo {
     }
 
-    static void main() {
+    public static void main(String[] args) {
         MiniContainer container = new MiniContainer();
         container.register("memory", Memory.class, MiniContainer.Scope.SINGLETON);
         container.register("file", FileRepo.class, MiniContainer.Scope.SINGLETON);

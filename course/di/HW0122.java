@@ -63,7 +63,7 @@ public class HW0122 {
         }
     }
 
-    static void main() {
+    public static void main(String[] args) {
         MiniContainer container = new MiniContainer();
         MiniContainer container1 = new MiniContainer();
         MiniContainer container2 = new MiniContainer();
